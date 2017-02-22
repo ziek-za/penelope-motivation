@@ -21,5 +21,5 @@ output << ADJECTIVES[rand ADJECTIVES.length]
 p output.join(' ').concat('.')
 
 def brand_new_method
-  p 'Hi'
+  p 'Hi Sam'
 end
