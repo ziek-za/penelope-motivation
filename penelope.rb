@@ -19,3 +19,7 @@ output << ADJECTIVES[rand ADJECTIVES.length]
 
 # Display the output
 p output.join(' ').concat('.')
+
+def brand_new_method
+  p 'Hi'
+end
