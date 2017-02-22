@@ -1,6 +1,7 @@
 require_relative 'constants'
 
 output = []
+putout = []
 
 # Select Subjects
 output << SUBJECTS[rand SUBJECTS.length]
