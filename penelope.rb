@@ -1,7 +1,6 @@
 require_relative 'constants'
 
 output = []
-putout = []
 
 # Select Subjects
 output << SUBJECTS[rand SUBJECTS.length]
@@ -20,3 +19,7 @@ output << ADJECTIVES[rand ADJECTIVES.length]
 
 # Display the output
 p output.join(' ').concat('.')
+
+def brand_new_method
+  p 'Hi Sam!'
+end
