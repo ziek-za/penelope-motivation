@@ -15,7 +15,6 @@ when 1
 end
 # output << NOUNS[rand NOUNS.length]
 # Select an adjective
-output << ADJECTIVES[rand ADJECTIVES.length]
 
 output << 'with ' + NOUNS[rand NOUNS.length]
 
