@@ -17,5 +17,7 @@ end
 # Select an adjective
 output << ADJECTIVES[rand ADJECTIVES.length]
 
+output << 'with ' + NOUNS[rand NOUNS.length]
+
 # Display the output
 p output.join(' ').concat('.')
