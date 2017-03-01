@@ -20,7 +20,6 @@ end
 # output << NOUNS[rand NOUNS.length]
 # Select an adjective
 output << ADJECTIVES[rand ADJECTIVES.length]
-output << love
 
 # Display the output
 p output.join(' ').concat('.')
