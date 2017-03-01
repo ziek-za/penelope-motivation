@@ -1,6 +1,6 @@
 require_relative 'constants'
 
-output = Array.new
+output = []
 
 # Select Subjects
 output << 'The wonderful ' + SUBJECTS_NEW[rand SUBJECTS_NEW.length]
