@@ -11,7 +11,7 @@ output << 'The wonderful ' + SUBJECTS_NEW[rand SUBJECTS_NEW.length]
 # Select the verb
 output << VERBS[rand VERBS.length]
 # Randomize between a pro-noun or another subject
-case rand(1)
+case rand(2)
 when 0
   output << PRONOUNS[rand PRONOUNS.length]
 when 1
