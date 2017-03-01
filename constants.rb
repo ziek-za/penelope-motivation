@@ -1,3 +1,7 @@
+SUBJECTS_NEW = %w(
+  Sizzler
+)
+
 SUBJECTS = %w(
   Aveshan
   Wing
