@@ -2,10 +2,6 @@ require_relative 'constants'
 
 output = []
 
-def love
- ' love'
-end
-
 # Select Subjects
 output << 'The wonderful ' + SUBJECTS_NEW[rand SUBJECTS_NEW.length]
 # Select the verb
