@@ -7,7 +7,7 @@ def love
 end
 
 # Select Subjects
-output << SUBJECTS_NEW[rand SUBJECTS_NEW.length]
+output << 'The wonderful ' + SUBJECTS_NEW[rand SUBJECTS_NEW.length]
 # Select the verb
 output << VERBS[rand VERBS.length]
 # Randomize between a pro-noun or another subject
