@@ -1,115 +1,27 @@
 SUBJECTS = %w(
-  Braeme\ Leroux
-  Bosco
-  Bee
-  Awb
   Aveshan
-  Anja\ Vandenberg
-  Andrew\ Butchart
-  Andrea\ Oxenham
-  Adrian\ Linde
-  Adam
-  Collin
-  Cornevandyk
-  Cowley
-  Dante
+  Wing
   Darryn\ Papathanasiou
-  Davy
   Deanen\ Reddy
   Denys\ Stroebel
   Divashen
-  Ed\ symons
-  Claudina
-  Casper
-  Brayoni
-  Braeme\ Leroux
-  Bosco
-  Bee
   Emile\ Alberts
   Eduard
-  Edmore\ Moyo
   Gerhard\ Engelbrecht
-  Francois\ Retief
-  Eugene\ Nieuwenhuizen
   Erik\ Botes
-  Emile\ Alberts
-  Eduard
-  Edmore\ Moyo
-  Divashen
-  Denys\ Stroebel
-  Hawa
-  James\ Nzomo
-  Jason\ Murphy
-  Jon\ Gore
-  Jumo
-  Jessie\ Hurst
-  Darryn\ Papathanasiou
-  Davy
-  Jessie\ Hurst
-  Jon\ Gore
   Justipops
-  Kate\ T
-  Kenneth
-  Kirsten\ Clacey
-  Komuw
   Kurt
-  Kyle\ Patience
-  Jason\ Murphy
-  James\ Nzomo
-  Hawa
-  Louise\ Perold
-  Luke\ Abrahams
-  Lisa\ Morrison
-  Lawrence
-  Leana
-  Mwas
-  Nic
-  Nicolv
-  Nigel\ Cowling
-  Nigel\ Pedro
-  Obat
-  Okal
-  Rhiannon\ Liebowitz
-  Peter\ Matogo
-  Michael\ Bester
-  Max\ Kleynhans
-  Martin\ Schramm
-  Russell\ Jarvis
-  Rayna\ Leibrandt
-  Louise\ Perold
+  Winglet
   Marty
-  Quintis\ Venter
-  Luke\ Abrahams
-  Shaun\ Moodley
-  Stephenm
-  Steve
-  Teddybear
-  Tony\ Mamacos
-  Vanessa\ Fisher
-  Vivek\ Bhimma
-  Pierre\ Hugo
-  Rayna\ Leibrandt
-  Walter\ Proske
-  Sean\ Oreilly
   Samuel\ Alfred
-  Quintis\ Venter
-  Russell\ Jarvis
-  Sam
-  Yunus\ Nordien
-  Rhiannon\ Liebowitz
-  Wing
 ).freeze
 
 VERBS = %w(
-  accepts
-  adds
   admires
-  admits
+  admits\ to
   advises
-  affords
   agrees\ to
   alerts
-  allows
   amuses
   analyses
   announces\ to
@@ -124,7 +36,6 @@ VERBS = %w(
   arrests
   arrives\ with
   asks
-  attaches
   attacks
   attracts
   avoids
@@ -134,7 +45,6 @@ VERBS = %w(
   bangs
   bares\ with
   bats
-  bathes
   battles
   beams
   begs
@@ -160,7 +70,6 @@ VERBS = %w(
   bumps
   burns
   burys
-  buzzs
   calculates
   calls
   camps
@@ -173,72 +82,49 @@ VERBS = %w(
   chases
   cheats\ on
   checks\ with
-  cheers
+  cheers\ for
   chews
   chokes
-  chops
   claims
-  claps
   cleans
-  clears
   clips
-  closes
-  coachs
-  coils
+  coaches
   collects
-  colours
-  combs
   commands
-  communicates
-  compares
-  competes
-  complains
+  communicates\ with
+  competes\ with
+  complains\ about
   completes
-  concentrates
+  concentrates\ on
   concerns
-  confesses
+  confesses\ to
   confuses
-  connects
+  connects\ with
   considers
-  consists
-  contains
   continues
-  copys
+  copies
   corrects
-  coughs
-  counts
+  coughs\ on
   covers
-  cracks
-  crashs
-  crawls
-  crosses
-  crushs
-  crys
+  crushes
   cures
   curls
-  curves
-  cycles
-  dams
-  damages
-  dances
+  dances\ with
   dares
-  decays
   deceives
   decides
   decorates
   delays
   delights
   delivers
-  depends
+  depends\ on
   describes
   deserts
-  deserves
   destroys
   detects
   develops
-  disagrees
-  disappears
-  disapproves
+  disagrees\ with
+  disapproves\ of
   disarms
   discovers
   dislikes
@@ -247,76 +133,48 @@ VERBS = %w(
   doubts
   drags
   drains
-  dreams
+  dreams\ of
   dresses
-  drips
   drops
   drowns
   drums
   drys
   dusts
-  earns
   educates
   embarrasses
   employs
-  emptys
   encourages
   ends
-  enjoys
-  enters
   entertains
-  escapes
   examines
-  excites
   excuses
   exercises
-  exists
-  expands
-  expects
-  explains
-  explodes
   extends
   faces
-  fades
-  fails
-  fancys
-  fastens
-  faxs
+  fancies
+  faxes
   fears
   fences
-  fetchs
-  files
-  fills
+  fetches
   films
-  fires
-  fits
-  fixs
-  flaps
-  flashs
+  flaps\ at
   floats
-  floods
-  flows
-  flowers
   folds
   follows
   fools
-  forces
   forms
   founds
   frames
   frightens
   frys
   gathers
-  gazes
-  glows
+  gazes\ at
   glues
   grabs
   grates
-  greases
   greets
   grins
   grips
-  groans
   guarantees
   guards
   guesses
@@ -324,8 +182,6 @@ VERBS = %w(
   hammers
   hands
   handles
-  hangs
-  happens
   harasses
   harms
   hates
@@ -342,8 +198,7 @@ VERBS = %w(
   hugs
   hums
   hunts
-  hurrys
-  identifys
+  identifies
   ignores
   imagines
   impresses
@@ -356,7 +211,6 @@ VERBS = %w(
   injures
   instructs
   intends
-  interests
   interferes
   interrupts
   introduces
@@ -371,7 +225,6 @@ VERBS = %w(
   jokes
   judges
   juggles
-  jumps
   kicks
   kills
   kisses
@@ -387,7 +240,6 @@ VERBS = %w(
   learns
   levels
   licenses
-  licks
   lies
   lightens
   likes
@@ -400,7 +252,6 @@ VERBS = %w(
   looks\ at
   loves
   manages
-  marks
   marries
   matches
   mates\ with
@@ -436,10 +287,9 @@ VERBS = %w(
   obtains
   occurs
   offends
-  offers
+  offers\ up
   opens
   orders
-  overflows
   owes
   owns
   packs
@@ -462,11 +312,10 @@ VERBS = %w(
   plans\ with
   plants
   plays\ with
-  pleases
   plugs
   points
   pokes
-  polishs
+  polishes
   pops
   possesses
   posts
@@ -492,8 +341,7 @@ VERBS = %w(
   pulls
   pumps
   punchs
-  punctures
-  punishs
+  punishes
   pushs
   questions
   queues
@@ -508,12 +356,10 @@ VERBS = %w(
   records
   reduces
   reflects
-  refuses
   regrets
   reigns
   rejects
   rejoices
-  relaxs
   releases
   relys
   remains
@@ -569,7 +415,7 @@ VERBS = %w(
   shocks
   shops
   shrugs
-  sighs§
+  sighs
   signs
   signals
   sins
@@ -595,20 +441,17 @@ VERBS = %w(
   sparks
   sparkles
   spells
-  spills
   spoils
   spots
   sprays
   sprouts
   squashs
   squeaks
-  squeals
   squeezes
   stains
   stamps
   stares
   starts
-  stays
   steers
   steps
   stirs
@@ -623,7 +466,6 @@ VERBS = %w(
   stuffs
   subtracts
   succeeds
-  sucks
   suffers
   suggests
   suits
@@ -634,14 +476,10 @@ VERBS = %w(
   surrounds
   suspects
   suspends
-  switchs
   talks\ about
   tames
-  taps
-  tastes
   teases
   telephones
-  tempts
   terrifys
   tests
   thanks
@@ -664,28 +502,22 @@ VERBS = %w(
   trembles\ near
   tricks
   trips\ over
-  trots
   troubles
   trusts
-  trys
-  tugs
   tumbles
   turns
   twists
   types
-  undresses
   unfastens
   unites
   unlocks
   unpacks
   untidys
-  uses
   vanishes\ without
   visits
   wails
   waits
   walks
-  wanders
   wants
   warms
   warns
